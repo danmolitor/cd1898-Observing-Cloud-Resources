@@ -2,7 +2,6 @@ locals {
    account_id = data.aws_caller_identity.current.account_id
 
    name   = "udacity"
-   region = "us-east-2"
    tags = {
      Name      = local.name
      Terraform = "true"
